@@ -18,7 +18,7 @@ Needs access to the internet.
 
 It doesn't check, what version you actually have installed, but rather what it did successfully install last time. If you already have latest version installed, you might want to manually set the `lastlatest` file or wait till you know that there's a newer one. Otherwise, it will recompile and reinstall that version, but will remember that for next time.
 
-Likewise, if you for whatever reason uninstalled the package and you need to rebuild and reinstall it, you just need to delete the `lastlatest` file to make it do that.
+Likewise, if you for whatever reason uninstalled the package or you just need to rebuild and reinstall it, all you have to do is delete the `lastlatest` file to make it do that.
 
 There's a simple log rotation implemented. After each run, it keeps only the latest 1000 lines of the log. That should be enough for more than 10 full runs.
 
