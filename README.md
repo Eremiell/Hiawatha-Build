@@ -21,4 +21,5 @@ For fast search in log, seek lines starting with `.` or `!`. The first ones repr
 ## Thanks
 
 This script is mostly automatized version of [this howto](https://www.hiawatha-webserver.org/forum/topic/1214). Huge thanks to it's author!
+
 Even bigger thanks to the author of [Hiawatha](https://www.hiawatha-webserver.org/), Hugo Leisink.
