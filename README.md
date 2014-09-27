@@ -12,6 +12,8 @@ Is meant to be run in root cron or at least with the root priviledges.
 
 Keeps minimal traces of its activity (last compiled version number in a plaintext file and log). Everything else is cleaned on script exit.
 
+Needs access to the internet.
+
 ## Notes
 
 It doesn't check, what version you actually have installed, but rather what it did successfully install last time. If you already have latest version installed, you might want to manually set the `lastlatest` file or wait till you know that there's a newer one. Otherwise, it will recompile and reinstall that version, but will remember that for next time.
