@@ -6,6 +6,8 @@ Short bash script to check latest version of Hiawatha and do the updating, if it
 
 Written for Debian-like systems with Raspbian in mind. If you have dpkg, it should work.
 
+Before first run, do `sudo apt-get install cmake libc6-dev libssl-dev dpkg-dev debhelper fakeroot libxml2-dev libxslt1-dev`.
+
 Is meant to be run in root cron or at least with the root priviledges.
 
 Keeps minimal traces of its activity (last compiled version number in a plaintext file and log). Everything else is cleaned on script exit.
